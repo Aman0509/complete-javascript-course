@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: "Indie Flower", cursive;
+  font-size: 32px;
+  color: white;
+}
+
+.head h1 {
+  font-family: inherit;
+  text-align: center;
+  margin: 2px;
+  font-size: 70px;
+}
+
+.head p {
+  text-align: center;
+  margin: 0px;
+}
+
+.line {
+  margin: 0px 0px 5px 0px;
+  width: 850px;
+  height: 0px;
+  border-bottom: 2px outset white;
+  position: absolute;
+  left: 20%;
+  right: 20%;
+}
+
+#solutionbox {
+  text-align: center;
+  padding: 13px;
+  height: 60px;
+  width: 90px;
+  background-color: white;
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: inherit;
+}
+
+.box {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  height: 350px;
+}
+
+#valu {
+  width: 215px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-left: 50%;
+  margin-top: 10%;
+  background-color: #ffc400;
+  text-align: center;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+#enter {
+  width: 215px;
+  height: 50px;
+  margin-left: 50%;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bolder;
+  background-color: white;
+}
+
+#enter:hover {
+  background-color: #269fe0;
+  color: white;
+}
+
+.gamestatus {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 2px;
+}
+
+.attempt {
+  margin-top: 2px;
+  margin-left: 10%;
+  margin-bottom: 1.5px;
+}
+
+.highscore {
+  margin-left: 10%;
+  margin-top: 1px;
+}
+
+.replay {
+  position: relative;
+  height: 50px;
+  width: 400px;
+  margin-left: 34%;
+  background-color: white;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.replay:hover {
+  background-color: #9b0606;
+  color: white;
+}
